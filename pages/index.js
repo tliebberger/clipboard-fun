@@ -26,7 +26,7 @@ export default function Home() {
           Welcome to Clipboard Fun
         </h1>
         <p className={styles.description}>
-          This is a simple app that will copy the text "Welcome to Clipboard Fun" to the clipboard. Without asking you for permission.
+          This is a simple app that will copy the text Welcome to Clipboard Fun to the clipboard. Without asking you for permission.
         </p>
       </main>
     </div>
