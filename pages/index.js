@@ -9,7 +9,7 @@ export default function Home() {
     const text = "Welcome to Clipboard Fun"
     navigator.clipboard.writeText(text)
       .then(() => {
-        window.alert("check your clipboard, I copied this text: " + text);
+        console.log('Async: Copying to clipboard was successful!');
       })
   }, [])
 
@@ -25,8 +25,9 @@ export default function Home() {
         <h1 className={styles.title}>
           Welcome to Clipboard Fun
         </h1>
-
-
+        <p className={styles.description}>
+          This is a simple app that will copy the text "Welcome to Clipboard Fun" to the clipboard. Without asking you for permission.
+        </p>
       </main>
     </div>
   )
